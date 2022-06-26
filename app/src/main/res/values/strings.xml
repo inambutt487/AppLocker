@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">App Locker</string>
+
+    <string name="default_notification_channel_id" translatable="false">Message</string>
+    <string name="default_notification_channel_name" translatable="false">Message</string>
+
+    <string name="messagetitle" translatable="false">messagetitle</string>
+    <string name="messageBody" translatable="false">messageBody</string>
+    <string name="messageIcon" translatable="false">messageIcon</string>
+    <string name="messageAction" translatable="false">messageAction</string>
+    <string name="messageLink" translatable="false">messageLink</string>
+    <string name="messageRate" translatable="false">messageRate</string>
+    <string name="messageImage" translatable="false">messageImage</string>
+    <string name="quit">Quite</string>
+    <string name="quit_desc">Do you Want to Quit???</string>
+    <string name="loader_privacy"><u>Privacy Policy.</u></string>
+    <string name="loader_terms_condition"><u>Terms of service</u></string>
+
+    <string name="next">Next</string>
+    <string name="Continue">Continue</string>
+
+    <string name="app_pin">PIN LOCK</string>
+    <string name="app_pattern">PATTERN</string>
+    <string name="app_scanner">FINGER SCANNER</string>
+    <string name="app_question">QUESTION</string>
+    <string name="app_permission">PERMISSION</string>
+    <string name="app_icons">CHANGE ICON</string>
+
+    <string name="apps">Apps</string>
+
+    <string name="pinlock_fingerprint">Use Fingerprint</string>
+
+    <string name="pinlock_title">Lock Pin Code</string>
+    <string name="pinlock_settitle">Set Lock Pin Code</string>
+    <string name="pinlock_secondPin">Confirm Lock Pin Code Again</string>
+    <string name="pinlock_tryagain">Pin Code Are Not The Same</string>
+
+    <string name="pinlock_firsttry">Wrong Lock Pin Code: First Try</string>
+    <string name="pinlock_secondtry">Wrong Loc Pin Code: Second Try</string>
+    <string name="pinlock_wrongpin">Wrong Lock Pin code</string>
+
+
+    <string name="pattern_title">Draw Lock Pattern</string>
+    <string name="pattern_settitle">Set Lock Pattern</string>
+    <string name="pattern_secondPin">Confirm Draw Pattern Again</string>
+
+    <string name="pattern_lenth">Draw Pattern Again Please Select 4 Node Atleast</string>
+    <string name="pattern_tryagain">Draw Patterns Not Same</string>
+
+    <string name="pattern_firsttry">Wrong Pattern: First Try</string>
+    <string name="pattern_secondtry">Wrong Pattern: Second Try</string>
+
+    <string name="pattern_visible">Pattern Visibility</string>
+    <string name="change_icon">Change App Icon</string>
+
+    <string name="cache_clear">Cache Clear</string>
+    <string name="vibration">Vibration</string>
+    <string name="lock_new_app">Lock New App</string>
+    <string name="protect_uninstall">Protect Uninstall</string>
+    <string name="detect_spy">Spy Detaction</string>
+    <string name="change_pin">Change Pin</string>
+
+    <string name="setting">Setting</string>
+    <string name="Exit">Exit</string>
+    <string name="search">Search</string>
+    <string name="switch_lock_type">Switch Lock</string>
+    <string name="permiision">Permission</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="intro_slideText1">you can lock your apps with custome locker.</string>
+    <string name="recovery">Recovery</string>
+    <string name="enablel_lock">Enable Lock</string>
+    <string name="immediately_lock">Immediately lock</string>
+    <string name="_1_minute">1 minute</string>
+    <string name="lock_settings">Lock Settings</string>
+    <string name="test_spy_detection">Test Spy Detection</string>
+    <string name="custom_lock">Custom Lock</string>
+    <string name="accept_continue">Accept and Continue</string>
+    <string name="place_finger1">Please Place your finger to</string>
+    <string name="place_finger2">your phone!</string>
+    <string name="loading">Loading</string>
+    <string name="use_pin">Use Pin</string>
+    <string name="use_pattern">Use Pattern</string>
+    <string name="set_question">Set Security Question.</string>
+    <string name="select_question">Select Security Question.</string>
+    <string name="security_answer">Security Answer</string>
+    <string name="hint_answer">Enter your answer</string>
+    <string name="security_question">Security Question</string>
+    <string name="done">Done</string>
+    <string name="nav_header_text">" \"𝑾𝒆 𝒑𝒓𝒐𝒗𝒊𝒅𝒆 𝒔𝒆𝒄𝒖𝒓𝒆 𝒑𝒓𝒐𝒕𝒆𝒄𝒕𝒊𝒐𝒏\n𝒕𝒐 𝒂𝒍𝒍 𝒚𝒐𝒖𝒓 𝒎𝒐𝒃𝒊𝒍𝒆-𝒑𝒉𝒐𝒏𝒆\n𝒂𝒑𝒑𝒍𝒊𝒄𝒂𝒕𝒊𝒐𝒏𝒔\""</string>
+    <string name="how_to_use">How to use</string>
+    <string name="share">Share</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="more_apps">More App</string>
+    <string name="nav_quite">Quite</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="app_locker_pro">AppLocker PRO</string>
+
+    <string-array name="lock_time_array">
+
+        <item>15 seconds</item>
+
+        <item>30 seconds</item>
+
+        <item>1 minute</item>
+
+        <item>3 minutes</item>
+
+        <item>5 minutes</item>
+
+        <item>10 minutes</item>
+
+        <item>30 minutes</item>
+
+        <item>Immediately </item>
+
+    </string-array>
+
+    <string name="exp_header_font_path"></string>
+    <string name="exp_content_font_path"></string>
+    <string name="fake_cover">fake Cover</string>
+    <string name="lets_start">Lets Start</string>
+    <string name="forgot_lock">Forgot Lock</string>
+</resources>

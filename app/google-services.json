@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "805140591567",
+    "project_id": "applocker-9ab80",
+    "storage_bucket": "applocker-9ab80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805140591567:android:ab17b563738b125bc998ba",
+        "android_client_info": {
+          "package_name": "com.applocker.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805140591567-8dbgpbf43jrn7l108ultm7jg14frthac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.applocker.app",
+            "certificate_hash": "d4683b40b9f25f19fb792494f91ef5ffd92122b7"
+          }
+        },
+        {
+          "client_id": "805140591567-4ej00d81cuqlr8ge2c507e6d6n9678j5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANuWxBa8RHeWSLdq8FgCOKjhiJ6Biiraw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805140591567-4ej00d81cuqlr8ge2c507e6d6n9678j5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

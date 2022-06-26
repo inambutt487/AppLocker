@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0252ff</color>
+    <color name="colorPrimaryDark">#0252ff</color>
+    <color name="colorAccent">#0252ff</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#0252ff</color>
+    <color name="text_color">#666666</color>
+    <color name="gray">#f0f0f0</color>
+    <color name="light_black">#9B000000</color>
+    <color name="quite">#f1f2f6</color>
+
+    <!--Pin Lock-->
+    <color name="text_numberpressed">#fff</color>
+    <color name="text_title">#FF000000</color>
+
+    <color name="text_fingerprint">#FF87898C</color>
+    <color name="button_notpressed">#FF87898C</color>
+    <color name="dot_emptyborder">#87898C</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="exp_header_arrow_tint">@color/colorPrimary</color>
+
+    <array name="array_dot_inactive">
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+    </array>
+
+    <array name="array_dot_active">
+        <item>@color/blue</item>
+        <item>@color/blue</item>
+        <item>@color/blue</item>
+    </array>
+</resources>

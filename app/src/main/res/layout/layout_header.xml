@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="title"
+            type="String" />
+
+        <variable
+            name="fontPath"
+            type="String" />
+
+        <variable
+            name="customHeader"
+            type="boolean" />
+
+        <variable
+            name="hideArrow"
+            type="boolean" />
+
+        <variable
+            name="drawable"
+            type="android.graphics.drawable.Drawable" />
+
+    </data>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:gravity="center_vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/header_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            bind:exp_visibility="@{customHeader}"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/headerTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:clickable="false"
+            android:gravity="start|center_vertical"
+            android:text="@{title}"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="@dimen/exp_header_text_size"
+            bind:exp_fontPath="@{fontPath!=null?fontPath:@string/exp_header_font_path}"
+            bind:exp_visibility="@{!customHeader}"
+            tools:text="Header"
+            tools:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="?selectableItemBackgroundBorderless"
+            android:clickable="false"
+            android:elevation="@dimen/exp_arrow_elevation"
+            android:gravity="end"
+            bind:exp_src="@{drawable==null?@drawable/exp_header_arrow:drawable}"
+            bind:exp_visibility="@{!hideArrow}"
+            tools:src="@drawable/exp_header_arrow"
+            tools:visibility="visible" />
+    </RelativeLayout>
+</layout>

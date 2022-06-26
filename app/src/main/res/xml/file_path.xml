@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path
+        name="camera"
+        path="Camera/" />
+    <cache-path
+        name="cache"
+        path="/" />
+    <files-path
+        name="files"
+        path="." />
+    <external-path
+        name="external"
+        path="." />
+    <external-files-path
+        name="my_images"
+        path="/"/>
+    // todo: add necessary folders according to your requirements...
+    // also, this is an old example. Consider googling for the latest style. I'm just copying from an old project I have, and it kinda works...
+</paths>

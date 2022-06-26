@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="defaultHeader"
+            type="boolean" />
+
+        <variable
+            name="defaultContent"
+            type="boolean" />
+
+        <variable
+            name="contentText"
+            type="String" />
+
+        <variable
+            name="fontPath"
+            type="String" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/headerLayout"
+            layout="@layout/layout_header"
+            bind:customHeader="@{!defaultHeader}" />
+
+        <RelativeLayout
+            android:id="@+id/content_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/content_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:visibility="gone"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                bind:exp_visibility="@{!defaultContent}"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/contentTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/exp_content_marginStart"
+                android:gravity="top|start"
+                android:ellipsize="end"
+                android:text="@{contentText}"
+                android:textAlignment="viewStart"
+                android:textDirection="locale"
+                android:textColor="@color/colorPrimary"
+                android:visibility="gone"
+                android:textSize="@dimen/exp_content_text_size"
+                bind:exp_fontPath="@{fontPath!=null?fontPath:@string/exp_content_font_path}"
+                tools:text="Content"
+                tools:visibility="visible" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</layout>
